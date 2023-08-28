@@ -1,8 +1,8 @@
 My suggested steps for quick installation:
 
-- Clone https://huggingface.co/ai-forever/Real-ESRGAN
-- Get the models and store in /weights: https://huggingface.co/ai-forever/Real-ESRGAN/tree/main
-- cd Real-ESRGAN/
+- Clone https://github.com/ai-forever/Real-ESRGAN
+- Get the models and move to project Real-ESRGAN/weights: https://huggingface.co/ai-forever/Real-ESRGAN/tree/main or https://huggingface.co/ai-forever/Real-ESRGAN
+- cd into project Real-ESRGAN/
 - python -m pip install -r requirements.txt
 - python setup.py develop
 - Set the target resolution in main.py, i.e. load_weights RealESRGAN_x8.pth and model scale (model = RealESRGAN(device, scale=4)) where scale=2/4/8
