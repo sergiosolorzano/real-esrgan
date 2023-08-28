@@ -1,3 +1,13 @@
+My suggested steps for quick installation:
+
+Clone https://huggingface.co/ai-forever/Real-ESRGAN
+Get the models and store in /weights: https://huggingface.co/ai-forever/Real-ESRGAN/tree/main
+cd Real-ESRGAN/
+python -m pip install -r requirements.txt
+python setup.py develop
+Set the quality according to the model e.g. RealESRGAN_x8.pth and model scale (model = RealESRGAN(device, scale=4)) where scale=2/4/8
+Execute: python main.py
+
 # Real-ESRGAN
 PyTorch implementation of a Real-ESRGAN model trained on custom dataset. This model shows better results on faces compared to the original version. It is also easier to integrate this model into your projects.
 
