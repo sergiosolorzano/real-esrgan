@@ -2,6 +2,7 @@ My suggested steps for quick installation:
 
 - Clone https://github.com/ai-forever/Real-ESRGAN
 - Get the models and move to project Real-ESRGAN/weights: https://huggingface.co/ai-forever/Real-ESRGAN/tree/main or https://huggingface.co/ai-forever/Real-ESRGAN
+- As customary, a python environment is helpful and worked for me on a conda python 3.10 env
 - cd into project Real-ESRGAN/
 - python -m pip install -r requirements.txt
 - python setup.py develop
